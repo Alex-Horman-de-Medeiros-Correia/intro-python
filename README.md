@@ -18,6 +18,12 @@
 git clone git@github.com:tryber/introduction-to-python.git
 ```
 
+3. Entre na pasta gerada
+
+```bash
+cd introduction-to-python
+```
+
 4. Crie o ambiente virtual que será utilizado para instalar as dependências
 
 ```bash
