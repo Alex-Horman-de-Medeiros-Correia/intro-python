@@ -16,6 +16,8 @@
 
 ```bash
 git clone git@github.com:tryber/introduction-to-python.git
+```
+
 4. Crie o ambiente virtual que será utilizado para instalar as dependências
 
 ```bash
