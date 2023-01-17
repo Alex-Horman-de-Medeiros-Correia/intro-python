@@ -8,41 +8,53 @@
 <details>
 <summary> Passo a Passo </summary>
 
-1. Tenha o Python instalado em sua máquina ([guia aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/aa76abc8-b842-40d9-b5cc-baa960952129/lesson/3f79a20e-f527-4871-b69b-544310cfbda0 "Guia de configuração de ambiente Python")), caso tenha dúvidas sobre esse ponto, poste no canal da turma e o time responsável irá te ajudar aqui. 
+1. Tenha o Python instalado em sua máquina ([guia aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/aa76abc8-b842-40d9-b5cc-baa960952129/lesson/3f79a20e-f527-4871-b69b-544310cfbda0 "Guia de configuração de ambiente Python")), caso tenha dúvidas sobre esse ponto, poste no canal da turma e o time responsável irá te ajudar aqui.
+
+2. Clone este repositório
+
+```bash
+git clone git@github.com:tryber/introduction-to-python.git
+```
+
+3. Entre na pasta que foi clonada
+
+```bash
+cd introduction-to-python
+```
 
 > Para nossos exercícios, você precisará dos itens [🐍 Python], [🚚 Pip] e [📚 Venv]
 
-2. Crie o ambiente virtual que será utilizado para instalar as dependências
+4. Crie o ambiente virtual que será utilizado para instalar as dependências
 
 ```bash
 python3 -m venv .venv
 ```
 
-3. Ative o ambiente virtual que foi criado
+5. Ative o ambiente virtual que foi criado
 
 ```bash
 source .venv/bin/activate
 ```
 
-4. Instale os requerimentos deste repositório 
+6. Instale os requerimentos deste repositório 
 
 ```bash
 python3 -m pip install -r dev-requirements.txt
 ```
 
-5. Execute todos os testes do repositório (note que, enquanto não houver implementação nas funções, os testes falharão!)
+7. Execute todos os testes do repositório (note que, enquanto não houver implementação nas funções, os testes falharão!)
 
 ```bash
 python3 -m pytest
 ```
 
-6. Execute os testes de um arquivo específico (note que, enquanto não houver implementação nas funções, os testes falharão!)
+8. Execute os testes de um arquivo específico (note que, enquanto não houver implementação nas funções, os testes falharão!)
 
 ```bash
 python3 -m pytest tests/<caminho/para/o/arquivo/de/teste>
 ```
 
-7. Execute apenas um teste específico de um arquivo específico (note que, enquanto não houver implementação nas funções, os testes falharão!)
+9. Execute apenas um teste específico de um arquivo específico (note que, enquanto não houver implementação nas funções, os testes falharão!)
 
 ```bash
 python3 -m pytest tests/<caminho/para/o/arquivo/de/teste>::<nome_da_função_do_teste>
